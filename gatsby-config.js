@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Utsav's Blog`,
-    description: `A Blog starter`,
+    description: `I write once every blue moon.`,
     author: `Utsav Shrestha`,
-    authorTagline: 'Engineer. Driven by Passion',
+    authorTagline: 'Engineer. Driven by Boredom',
     social: {
       twitter: `utsavshresthaa`,
     },
