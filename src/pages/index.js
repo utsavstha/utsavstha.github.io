@@ -24,7 +24,7 @@ class BlogIndex extends Component {
     const posts = data.allMarkdownRemark.edges;
     return (
       <Layout>
-        <SEO title="All Posts" keywords={[`gatsby`, `blog`, `react`]} />
+        <SEO title="All Posts" keywords={[`gatsby`, `blog`, `react`, `utsav`]} />
         <Bio />
         <main>
           <Title>Latest Posts</Title>

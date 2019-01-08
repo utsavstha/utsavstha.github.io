@@ -22,7 +22,7 @@ Straight out of [React docs](https://reactjs.org/docs/state-and-lifecycle.html#s
 
 Let’s find out.
 
-```js
+```swift
 setTimeout(() => console.log('foo'), 0);
 console.log('bar');
 ```
