@@ -99,7 +99,7 @@ x = x - y
 print("After Swapping: x =",x ," y =", y)
 ```
 
-##C SHARP
+##CSHARP
 
 ```cs
 using System; 
