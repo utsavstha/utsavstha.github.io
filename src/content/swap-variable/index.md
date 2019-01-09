@@ -101,7 +101,7 @@ print("After Swapping: x =",x ," y =", y)
 
 ##C SHARP
 
-```c
+```cs
 using System; 
   
 class GFG { 
