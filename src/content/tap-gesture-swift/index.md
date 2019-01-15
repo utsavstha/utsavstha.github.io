@@ -14,7 +14,7 @@ view.OnClickListener() {
 });
 ```
 
-**Thats all. Like UIView in swift "view" can be anything from a plain view to a button or even textfields. There was no way I could put up with so much boilerplate code just to implement a tapgesture. After giving it some tries I managed to hackaway an extension for tapgesture.
+**Thats all.** Like UIView in swift "view" can be anything from a plain view to a button or even textfields. There was no way I could put up with so much boilerplate code just to implement a tapgesture. After giving it some tries I managed to hackaway an extension for tapgesture.
 
 ```swift
 extension UIView {
@@ -64,7 +64,7 @@ extension UIView {
 ```
 
 Using this extension will shorten the code for tap gesture 
-**from this
+**From this**
 
 ```swift
 let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(viewTapped(tapGestureRecognizer:)))
@@ -75,7 +75,7 @@ func viewTapped(tapGestureRecognizer: UITapGestureRecognizer){
     //do stuff
 }
 ```
-**to this
+**To this**
 
 ```swift
 self.view.addTapGestureRecognizer{
